@@ -16,3 +16,5 @@ Business Success Criteria
 - Operational cost savings of around 5–10% per year through efficiency measures.
 - Repeat guest rate of over 30%.
 
+# Business Background
+Hotel is an important component of the hospitality industry, providing paid accommodation, food and and other services to guests. They cater to a group of diverse individuals, including tourists, business guest and local guests. The business environment is influenced by economic conditions, travel trends and consumer technology, such as online booking platforms and review sites. The focus is to create a positive guest experience while managing operations to ensure profitability.
