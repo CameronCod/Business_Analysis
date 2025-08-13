@@ -19,7 +19,7 @@ Business Success Criteria
 # Business Background
 Hotel is an important component of the hospitality industry, providing paid accommodation, food and and other services to guests. They cater to a group of diverse individuals, including tourists, business guest and local guests. The business environment is influenced by economic conditions, travel trends and consumer technology, such as online booking platforms and review websites. The focus is to create a positive guest experience while managing operations to ensure profitability.
 
-Requirements
+# Requirements
 To ensure the successful implementation of the AI hotel management system, several key functional and non-functional requirements must be met.
  Functional Requirements:
 - Reservation Management: AI must process changes, cancellations, and upgrades.
@@ -35,13 +35,13 @@ To ensure the successful implementation of the AI hotel management system, sever
 - Scalability: Able to support expansion across multiple properties or hotel chains.
 - Multi-language Support: Cater to international guests through localized experiences.
 
-Constraints
+# Constraints
 The project must be designed and implemented within the following limitations:
 - Budget Constraints: Financial resources may restrict the scope or speed of implementation.
 - Legacy Systems: Existing hotel software may limit integration or require upgrades.
 - Regulatory Compliance: Must adhere to local labor laws and international data privacy standards.
 
-Risks
+# Risks
 Potential risks that could impact the success of the AI solution include:
 Technical Risks:
 - AI errors in managing bookings or misinterpreting guest requests.
