@@ -43,17 +43,21 @@ The project must be designed and implemented within the following limitations:
 
 # Risks
 Potential risks that could impact the success of the AI solution include:
+
 Technical Risks:
 - AI errors in managing bookings or misinterpreting guest requests.
 - System failures or bugs are causing delays in check-ins or room assignments.
 - Integration difficulties with outdated or proprietary systems.
+
  Operational Risks:
 - Resistance from staff unwilling to adopt new technologies.
 - Loss of the personal touch that guests expect in hospitality.
 - Misuse or underutilization of the system due to insufficient training.
+
  Security & Compliance Risks:
 - Data breaches or leaks of personal guest information.
 - Legal action due to non-compliance with data protection laws.
  Reputational Risks
+
 - Negative guest experiences caused by AI mistakes (e.g., wrong room, poor service).
  
