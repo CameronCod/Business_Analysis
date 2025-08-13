@@ -18,3 +18,42 @@ Business Success Criteria
 
 # Business Background
 Hotel is an important component of the hospitality industry, providing paid accommodation, food and and other services to guests. They cater to a group of diverse individuals, including tourists, business guest and local guests. The business environment is influenced by economic conditions, travel trends and consumer technology, such as online booking platforms and review websites. The focus is to create a positive guest experience while managing operations to ensure profitability.
+
+Requirements
+To ensure the successful implementation of the AI hotel management system, several key functional and non-functional requirements must be met.
+ Functional Requirements:
+- Reservation Management: AI must process changes, cancellations, and upgrades.
+- Guest Profile Updates: Automatically maintain guest history, preferences, and loyalty status.
+- Housekeeping Scheduling: Assign cleaning tasks based on real-time room availability and guest status.
+- Automated Check-in/Check-out: Enable self-service through kiosks or mobile applications.
+- Operational Insights: Generate real-time reports on occupancy, service status, and guest feedback.
+
+ Non-Functional Requirements:
+- Reliability: System must operate 24/7 with minimal downtime.
+- Data Security: Ensure guest data is protected in compliance with privacy regulations (e.g., GDPR).
+- User-Friendly Design: Easy-to-navigate interfaces for staff and guests.
+- Scalability: Able to support expansion across multiple properties or hotel chains.
+- Multi-language Support: Cater to international guests through localized experiences.
+
+Constraints
+The project must be designed and implemented within the following limitations:
+- Budget Constraints: Financial resources may restrict the scope or speed of implementation.
+- Legacy Systems: Existing hotel software may limit integration or require upgrades.
+- Regulatory Compliance: Must adhere to local labor laws and international data privacy standards.
+
+Risks
+Potential risks that could impact the success of the AI solution include:
+Technical Risks:
+- AI errors in managing bookings or misinterpreting guest requests.
+- System failures or bugs are causing delays in check-ins or room assignments.
+- Integration difficulties with outdated or proprietary systems.
+ Operational Risks:
+- Resistance from staff unwilling to adopt new technologies.
+- Loss of the personal touch that guests expect in hospitality.
+- Misuse or underutilization of the system due to insufficient training.
+ Security & Compliance Risks:
+- Data breaches or leaks of personal guest information.
+- Legal action due to non-compliance with data protection laws.
+ Reputational Risks
+- Negative guest experiences caused by AI mistakes (e.g., wrong room, poor service).
+ 
