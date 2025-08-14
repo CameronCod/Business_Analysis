@@ -61,4 +61,15 @@ Technical Risks:
  Reputational Risks:
 - Negative guest experiences caused by AI mistakes (e.g., wrong room, poor service, untidyness , wrong schedule ).
   
- 
+# Initial Assessment of Tools and Techniques
+AI Tools and Techniques:
+-Natural Language Processing : Responds to guest inquiries via chatbot or email. It reduces front-desk workload
+-Robotic Process Automation : Automates repetitive tasks(sending confirmations) , reduces manual administrative work and errors
+-Computer Vision : Supports and makes it easier for guests to check in using ID verification or facial recognition
+-Sentiment Analysis Tools : Monitors Online reviews and guest feedback to detect service issues
+
+Intergration Tools:
+-Cloud Platforms(e.g Azure) : Used to host the AI application and ensuring that the system rums 24/7
+
+Data Management Tools:
+-Database Management Systems(e.g.MySQL) : Can be used to store guest profiles and reservations
