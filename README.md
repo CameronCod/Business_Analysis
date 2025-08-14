@@ -59,5 +59,6 @@ Technical Risks:
 - Legal action due to non-compliance with data protection laws.
 
  Reputational Risks:
-- Negative guest experiences caused by AI mistakes (e.g., wrong room, poor service).
+- Negative guest experiences caused by AI mistakes (e.g., wrong room, poor service, untidyness , wrong schedule ).
+  
  
