@@ -1,6 +1,6 @@
 # Business_Analysis
 School Project. Student Portfolio
-AI Solution : Shortage of staff impacts the quality of service, reviews, manual check in delay. AI can help by taking on responsibilities. For example, it could manage reservation changes, update guest profiles, or even schedule housekeeping tasks base on real-time room availability, by offloading these adminsistrative burdens.
+AI Solution : Shortage of staff impacts the quality of service, reviews, manual check in delay. AI can help by taking on responsibilities. For example, it could manage reservation changes, update guest profiles, or even schedule housekeeping tasks base on real-time room availability, by offloading these adminsistrative burdens. Use of biometric system to be implimented for customers'  possessions to be secured or safe. Use AI to help customize suites in accordance to the customer's needs or preferences.
 
 Business Objectives
 - High Occupancy Rates: Keep a high percentage of booked rooms throughout the year.
@@ -22,18 +22,18 @@ Hotel is an important component of the hospitality industry, providing paid acco
 # Requirements
 To ensure the successful implementation of the AI hotel management system, several key functional and non-functional requirements must be met.
  Functional Requirements:
-- Reservation Management: AI must process changes, cancellations, and upgrades.
-- Guest Profile Updates: Automatically maintain guest history, preferences, and loyalty status.
-- Housekeeping Scheduling: Assign cleaning tasks based on real-time room availability and guest status.
-- Automated Check-in/Check-out: Enable self-service through kiosks or mobile applications.
+- Reservation Management: AI must process changes, cancellations, and upgrades. Customize room or suits to customers satisfction.
+- Guest Profile Updates: Automatically maintain guest history, preferences, and loyalty status. 
+- Housekeeping Scheduling: Assign cleaning tasks based on real-time room availability and guest status. Use AI system to book or asign tasks to the staff to do the services needed in favor of the customer's preferences.
+- Automated Check-in/Check-out: Enable self-service through kiosks or mobile applications. Use of biometric system prints to be registered for safety access to the allocated room(s). The system to be functional until the clocking or signing out of the guest(s). 
 - Operational Insights: Generate real-time reports on occupancy, service status, and guest feedback.
-
+- 
  Non-Functional Requirements:
 - Reliability: System must operate 24/7 with minimal downtime.
 - Data Security: Ensure guest data is protected in compliance with privacy regulations (e.g., GDPR).
 - User-Friendly Design: Easy-to-navigate interfaces for staff and guests.
 - Scalability: Able to support expansion across multiple properties or hotel chains.
-- Multi-language Support: Cater to international guests through localized experiences.
+- Multi-language Support: Cater to international guests through localized experiences, AI languagee translation for guests to use their suited or prefered language and automated responses translated for better and fast services.
 
 # Constraints
 The project must be designed and implemented within the following limitations:
@@ -45,9 +45,9 @@ The project must be designed and implemented within the following limitations:
 Potential risks that could impact the success of the AI solution include:
 
 Technical Risks:
-- AI errors in managing bookings or misinterpreting guest requests.
-- System failures or bugs are causing delays in check-ins or room assignments.
-- Integration difficulties with outdated or proprietary systems.
+- AI errors in managing bookings or misinterpreting guest requests, data misuse or theft and unautharized access.
+- System failures or bugs are causing delays in check-ins or room assignments. Error to biometrics access.
+- Integration difficulties with outdated or proprietary systems, staff inexperienced to the new AI tool or system. staff difficulties with time management.
 
  Operational Risks:
 - Resistance from staff unwilling to adopt new technologies.
