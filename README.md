@@ -86,3 +86,4 @@ How beneficial it will be in solving the problem?:
 - By solving this problem with AI, hotels can maintain service quality despite limited staff. 
 - This will improve guest satisfaction, protect the hotel’s reputation, and increase revenue.
 - The local municipality will also benefit from sustained tourism, more visitor spending in local businesses, and stable contributions from tourism-related taxes, helping the community’s economy grow.
+- operational effieciency and also support local employment stability
