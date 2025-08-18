@@ -60,4 +60,31 @@ Technical Risks:
 
  Reputational Risks:
 - Negative guest experiences caused by AI mistakes (e.g., wrong room, poor service).
+  
+# Initial Assessment of Tools and Techniques
+AI Tools and Techniques:
+-Natural Language Processing : Responds to guest inquiries via chatbot or email. It reduces front-desk workload
+-Robotic Process Automation : Automates repetitive tasks(sending confirmations) , reduces manual administrative work and errors
+-Computer Vision : Supports and makes it easier for guests to check in using ID verification or facial recognition
+-Sentiment Analysis Tools : Monitors Online reviews and guest feedback to detect service issues
+
+Intergration Tools:
+-Cloud Platforms(e.g Azure) : Used to host the AI application and ensuring that the system rums 24/7
+
+Data Management Tools:
+-Database Management Systems(e.g.MySQL) : Can be used to store guest profiles and reservations
+
+# Problem definition
+What is the problem?:
+- Hotels in our region are facing ongoing staff shortages, leading to slower check-ins, delayed housekeeping, and reduced responsiveness to guest requests.
+-  This lowers service quality, results in poor online reviews, and decreases repeat bookings, which in turn reduces occupancy rates and revenue.
+
+How relevant is it to the theme?:
+- The issue aligns with the theme “AI Solution for Industries” because AI can take over repetitive tasks such as managing reservations, updating guest profiles, scheduling housekeeping, and answering guest queries.
+
+How beneficial it will be in solving the problem?:
+- By solving this problem with AI, hotels can maintain service quality despite limited staff. 
+- This will improve guest satisfaction, protect the hotel’s reputation, and increase revenue.
+- The local municipality will also benefit from sustained tourism, more visitor spending in local businesses, and stable contributions from tourism-related taxes, helping the community’s economy grow.
+- operational effieciency and also support local employment stability
  
