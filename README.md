@@ -69,7 +69,7 @@ AI Tools and Techniques:
 -Sentiment Analysis Tools : Monitors Online reviews and guest feedback to detect service issues
 
 Intergration Tools:
--Cloud Platforms(e.g Azure) : Used to host the AI application and ensuring that the system rums 24/7
+-Cloud Platforms(e.g Azure) : Used to host the AI application and ensuring that the system runs 24/7
 
 Data Management Tools:
 -Database Management Systems(e.g.MySQL) : Can be used to store guest profiles and reservations
