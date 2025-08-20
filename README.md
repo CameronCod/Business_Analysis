@@ -46,7 +46,7 @@ The project must be designed and implemented within the following limitations:
 Potential risks that could impact the success of the AI solution include:
 
 Technical Risks:
-- AI errors in managing bookings or misinterpreting guest requests, data misuse or theft and unautharized access.
+- AI errors in managing bookings or misinterpreting guest requests, data misuse or theft and unautharized access. Personal data theft leading to customer complaints and unsatisfactory.
 - System failures or bugs are causing delays in check-ins or room assignments. Error to biometrics access.
 - Integration difficulties with outdated or proprietary systems, staff inexperienced to the new AI tool or system. staff difficulties with time management.
 
@@ -60,7 +60,7 @@ Technical Risks:
 - Legal action due to non-compliance with data protection laws.
 
  Reputational Risks:
-- Negative guest experiences caused by AI mistakes (e.g., wrong room, poor service, untidyness , wrong schedule ).
+- Negative guest experiences caused by AI mistakes (e.g., wrong room, poor service, untidyness , wrong schedule error in biometric system and staff allocation tasks).
   
 # Initial Assessment of Tools and Techniques
 AI Tools and Techniques:
@@ -70,10 +70,10 @@ AI Tools and Techniques:
 -Sentiment Analysis Tools : Monitors Online reviews and guest feedback to detect service issues
 
 Intergration Tools:
--Cloud Platforms(e.g Azure) : Used to host the AI application and ensuring that the system runs 24/7
+-Cloud Platforms(e.g Azure) : Used to host the AI application and ensuring that the system runs 24/7 in comfort of your own space or client's.
 
 Data Management Tools:
--Database Management Systems(e.g.MySQL) : Can be used to store guest profiles and reservations
+-Database Management Systems(e.g.MySQL) : Can be used to store guest profiles and reservations. keep records and make suggestions best for the client's needs or want.
 
 # Problem definition
 What is the problem?:
@@ -81,10 +81,11 @@ What is the problem?:
 -  This lowers service quality, results in poor online reviews, and decreases repeat bookings, which in turn reduces occupancy rates and revenue.
 
 How relevant is it to the theme?:
-- The issue aligns with the theme “AI Solution for Industries” because AI can take over repetitive tasks such as managing reservations, updating guest profiles, scheduling housekeeping, and answering guest queries.
+- The issue aligns with the theme “AI Solution for Industries” because AI can take over repetitive tasks such as managing reservations, updating guest profiles, scheduling housekeeping, and answering guest queries. It will also speed up the check-in processes.
 
 How beneficial it will be in solving the problem?:
 - By solving this problem with AI, hotels can maintain service quality despite limited staff. 
 - This will improve guest satisfaction, protect the hotel’s reputation, and increase revenue.
 - The local municipality will also benefit from sustained tourism, more visitor spending in local businesses, and stable contributions from tourism-related taxes, helping the community’s economy grow.
 - operational effieciency and also support local employment stability
+- The AI tool will make queries and offer the best of service so client's can be happy, with that even staff members will know their schedules and plan ahead of time.
