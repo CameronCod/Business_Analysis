@@ -110,8 +110,8 @@ Machine Learning Approach
 • Sentiment: Train classifier on labeled feedback.
 • Integration: Deploy models behind a chatbot or mobile app.
 - Implementation Steps
-• Define Use Cases: List guest scenarios (check-in, dining, complaints).
-• Gather Data: Collaborate with hotel IT to access logs and guest feedback.
+• Define Use Cases: List guest scenarios (check-in, dining, complaints, room sevirce and stuff allocation).
+• Gather Data: Collaborate with hotel IT to access logs and guest feedback. 
 • Build MVP: Start with a FAQ chatbot and basic recommendation engine.
 • Iterate: Add predictive features and sentiment analysis.
 • Deploy & Monitor: Integrate with hotel systems, track guest satisfaction.
