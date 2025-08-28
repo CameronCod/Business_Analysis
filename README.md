@@ -1,9 +1,10 @@
 # Business_Analysis
 School Project. Student Portfolio
 
-AI Solution : Shortage of staff impacts the quality of service, reviews, manual check in delay. AI can help by taking on responsibilities. For example, it could manage reservation changes, update guest profiles, or even schedule housekeeping tasks base on real-time room availability, by offloading these adminsistrative burdens. Use of biometric system to be implimented for customers'  possessions to be secured or safe. Use AI to help customize suites in accordance to the customer's needs or preferences.
+# AI Solution 
+Shortage of staff impacts the quality of service, reviews, manual check in delay. AI can help by taking on responsibilities. For example, it could manage reservation changes, update guest profiles, or even schedule housekeeping tasks base on real-time room availability, by offloading these adminsistrative burdens. Use of biometric system to be implimented for customers'  possessions to be secured or safe. Use AI to help customize suites in accordance to the customer's needs or preferences.
 
-Business Objectives
+# Business Objectives
 - High Occupancy Rates: Keep a high percentage of booked rooms throughout the year.
 - Increase Guest Satisfaction: Deliver good customer service to boost reviews, referrals and repeat bookings.
 - Improve Operational Efficiency: Reduce costs without compromising service quality through technology and staff training.
