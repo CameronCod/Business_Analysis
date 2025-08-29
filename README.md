@@ -1,7 +1,7 @@
 # Business_Analysis
 School Project. Student Portfolio
 
-# AI Solution 
+# AI Solution
 Shortage of staff impacts the quality of service, reviews, manual check in delay. AI can help by taking on responsibilities. For example, it could manage reservation changes, update guest profiles, or even schedule housekeeping tasks base on real-time room availability, by offloading these adminsistrative burdens. Use of biometric system to be implimented for customers'  possessions to be secured or safe. Use AI to help customize suites in accordance to the customer's needs or preferences.
 
 # Business Objectives
@@ -91,35 +91,31 @@ How beneficial it will be in solving the problem?:
 - operational effieciency and also support local employment stability
 - The AI tool will make queries and offer the best of service so client's can be happy, with that even staff members will know their schedules and plan ahead of time.
 
-Machine Learning Approach
-- Data Collection
-• Historical guest bookings and preferences
-• Service usage logs
-• Chat/interactions with our AI tool 
-• Real-time feedback (ratings, surveys)
-- Model Types
-• Recommendation System: Collaborative filtering or content-based filtering to suggest amenities and activities.
-• Natural Language Processing (NLP): Intent classification and response generation using models like BERT or GPT-3/4 for chatbots.
-• Time Series/Forecasting: Predict peak service times and guest needs using regression or LSTM networks.
-• Sentiment Analysis: Classify feedback using supervised learning (SVM, Random Forest, or deep learning).
-- Example Pipeline
-• Preprocessing: Clean and anonymize guest data.
-• Feature Engineering: Extract guest preferences, visit frequency, and service ratings.
-• Model Training:
-• Recommendation: Train with guest-item interaction matrix.
-• NLP: Fine-tune a pre-trained model on hotel-specific queries.
-• Sentiment: Train classifier on labeled feedback.
-• Integration: Deploy models behind a chatbot or mobile app.
-- Implementation Steps
-• Define Use Cases: List guest scenarios (check-in, dining, complaints, room sevirce and stuff allocation).
-• Gather Data: Collaborate with hotel IT to access logs and guest feedback. 
-• Build MVP: Start with a FAQ chatbot and basic recommendation engine.
-• Iterate: Add predictive features and sentiment analysis.
-• Deploy & Monitor: Integrate with hotel systems, track guest satisfaction.
-- Tech Stack Suggestions
-• Python (scikit-learn, TensorFlow, PyTorch)
-• NLP: HuggingFace Transformers
-• Database: PostgreSQL, MongoDB
-• Frontend: Mobile App (React Native/Flutter) or Web Dashboard
- - Sample Use Case
-Guest: “Can you show me a friendly usable hotel for a wheelchair person around the area?” AI Tool: [recommends 3 top hotels and shows pictures that are eco-friendly to a wheelchair users]
+# Problem Definition 2.0
+The hospitality industry is influenced by economic conditions and consumer technology, with a focus on creating a positive guest experience while ensuring profitability. An AI solution could address several challenges, such as:
+
+Guest Experience: How to personalize the guest experience on a large scale.
+
+Operations: Managing profitability and efficiency in a high-volume business.
+
+Reviews: How to analyze and act on the vast amount of feedback from online review websites.
+
+Demand Pricing: Setting optimal room rates based on various factors like demand, season, and competitor prices.
+
+# Machine Learning Approach
+For this solution, the algorithms fall under the category of Natural Language Processing (NLP). This is a subfield of AI that focuses on enabling computers to understand, interpret, and generate human language.
+The solution will use a machine learning approach to analyze guest reviews and social media comments to:
+
+Identify the overall opinions (positive, negative, or neutral).
+
+Extract key topics or "pain points" (e.g., "slow check-in," "clean rooms," "friendly staff").
+
+Prioritize feedback that requires immediate attention.
+
+# Data
+The data from the hotel_reviews.csv file relevant to the AI solution, as it provides the raw material needed to train and operate an AI system. The key to this relevance lies in the Review_Text and Rating(Out of 10) columns.
+Review_Text: This column is the most valuable for an AI system. By using Natural Language Processing (NLP).
+Rating(Out of 10): This column provides a quantitative measure of customer satisfaction. 
+
+
+
