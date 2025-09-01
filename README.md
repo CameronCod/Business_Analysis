@@ -91,35 +91,45 @@ How beneficial it will be in solving the problem?:
 - operational effieciency and also support local employment stability
 - The AI tool will make queries and offer the best of service so client's can be happy, with that even staff members will know their schedules and plan ahead of time.
 
-Machine Learning Approach
-- Data Collection
-• Historical guest bookings and preferences
-• Service usage logs
-• Chat/interactions with our AI tool 
-• Real-time feedback (ratings, surveys)
-- Model Types
-• Recommendation System: Collaborative filtering or content-based filtering to suggest amenities and activities.
-• Natural Language Processing (NLP): Intent classification and response generation using models like BERT or GPT-3/4 for chatbots.
-• Time Series/Forecasting: Predict peak service times and guest needs using regression or LSTM networks.
-• Sentiment Analysis: Classify feedback using supervised learning (SVM, Random Forest, or deep learning).
-- Example Pipeline
-• Preprocessing: Clean and anonymize guest data.
-• Feature Engineering: Extract guest preferences, visit frequency, and service ratings.
-• Model Training:
-• Recommendation: Train with guest-item interaction matrix.
-• NLP: Fine-tune a pre-trained model on hotel-specific queries.
-• Sentiment: Train classifier on labeled feedback.
-• Integration: Deploy models behind a chatbot or mobile app.
-- Implementation Steps
-• Define Use Cases: List guest scenarios (check-in, dining, complaints, room sevirce and stuff allocation).
-• Gather Data: Collaborate with hotel IT to access logs and guest feedback. 
-• Build MVP: Start with a FAQ chatbot and basic recommendation engine.
-• Iterate: Add predictive features and sentiment analysis.
-• Deploy & Monitor: Integrate with hotel systems, track guest satisfaction.
-- Tech Stack Suggestions
-• Python (scikit-learn, TensorFlow, PyTorch)
-• NLP: HuggingFace Transformers
-• Database: PostgreSQL, MongoDB
-• Frontend: Mobile App (React Native/Flutter) or Web Dashboard
- - Sample Use Case
-Guest: “Can you show me a friendly usable hotel for a wheelchair person around the area?” AI Tool: [recommends 3 top hotels and shows pictures that are eco-friendly to a wheelchair users]
+# Machine Learning Approach
+Reservation Management and Guest Customization
+Machine Learning Approach:
+- Natural Language Processing (NLP): To respond to guest inquiries via chatbots and email effectively reducing the front-desk workload and providing faster services. NLP involves both Natural Language Understanding (NLU) to interpret guest requests and Natural Language Generation (NLG) to formulate automated responses. NLP techniques like Tokenization (breaking text into simple units), Stemming (shortening words to their root form), and Lemmatization (finding the base form of words) are essential for processing guest queries.
+- Supervised Learning - Classification: To customize suites based on customer needs or preferences. By analyzing past booking data and preferences, classification algorithms can predict the ideal suite type or amenities for a guest. Algorithms like *Decision Tree, Random Forest, or Logistic Regression* are suitable for predicting categorized outputs, such as preferred room features or package types.
+
+Guest Profile Updates and Personalized Services
+Machine Learning Approach:
+- Unsupervised Learning - Clustering: To discover inherent groupings or segments among guests based on their purchasing behavior, demographics, or stated preferences. K-Means Clustering can group similar guests, allowing the hotel to make personalized suggestions and offers, enhancing the client's experience.
+- Supervised Learning - Classification: To predict guest loyalty status or the likelihood of repeat bookings. By learning from labeled data of past guests, algorithms like *Logistic Regression, Support Vector Machine (SVM), Naïve Bayes, or K-Nearest Neighbors (KNN)* can classify guests into different loyalty tiers and predict their propensity to return.
+
+Housekeeping Scheduling
+-Machine Learning Approach:
+- Supervised Learning - Regression: To estimate the time required for cleaning various room types based on the length of the previous guest's stay. *Linear Regression or Random Forest* can predict these continuous values. This enables more accurate and efficient scheduling, allowing staff to know their schedules and plan ahead.
+
+Automated Check-in/Check-out and Security
+Machine Learning Approach:
+- Computer Vision: A tool to support and make it easier for guests to check in using ID verification or facial recognition. Computer Vision processes images to extract, analyze, and understand useful information, simulating the human visual system through *machine learning and deep learning algorithms*. This is crucial for speeding up check-in processes.
+- Pattern Recognition (within ML/Deep Learning): The implementation of a biometric system, like fingerprint registration for secure access, relies on pattern recognition algorithms for accurate and reliable verification.
+
+Operational Insights and Performance Monitoring
+Machine Learning Approach:
+- Time Series Analysis: To predict future occupancy rates and revenue growth, which are key business objectives. Time series data is sequential, and sequence analysis predicts future events based on past observations. A Hidden Markov Model (HMM) is suitable for analyzing time series data and predicting future states.
+- Sentiment Analysis Tools (part of NLP): To monitor online reviews and guest feedback, detecting service issues and contributing to guest satisfaction ratings. This involves classification algorithms that categorize feedback into sentiment categories (e.g. positive, negative, neutral) or identify specific problem areas.
+
+# Evaluation for Accuracy of the AI Models in AI Solution
+Reservation Management and Guest Customization:
+- For customizing suites based on customer needs or preferences, which uses supervised learning classification algorithms, the performance would be evaluated using metrics such as a Confusion Matrix, Accuracy, Precision, or Recall/Sensitivity.
+- For responding to guest inquiries via chatbots and email using Natural Language Processing (NLP), the objective is to reduce front-desk workload and provide faster services. The effectiveness will be measured by the accuracy of understanding guest requests (Natural Language Understanding - NLU) and formulating appropriate responses (Natural Language Generation - NLG).
+
+Guest Profile Updates and Personalized Services:
+- For predicting guest loyalty status or the likelihood of repeat bookings, which also uses supervised learning classification algorithms, the evaluation will again involve Confusion Matrix, Accuracy, Precision, or Recall/Sensitivity.
+
+Housekeeping Scheduling:
+- To estimate the time required for cleaning various room types based on previous guest stays, using supervised learning regression algorithms, the model's accuracy will be evaluated by considering Variance, Bias, Error, and Accuracy.
+
+Automated Check-in/Check-out and Security:
+- The implementation of a biometric system for secure access relies on pattern recognition algorithms for accurate and reliable verification. Potential risks include errors in biometric access, data misuse, or system failures.
+
+Operational Insights and Performance Monitoring:
+- Sentiment Analysis Tools (part of NLP) monitor online reviews and guest feedback, using classification algorithms to categorize feedback (positive, negative, neutral). The accuracy of this categorization would be evaluated using Confusion Matrix, Accuracy, Precision, or Recall/Sensitivity.
+- Time Series Analysis is used to predict future occupancy rates and revenue growth. For this, accuracy would involve how close the predictions are to the actual future outcomes. The evaluation would likely focus on the difference between predicted and actual values.
