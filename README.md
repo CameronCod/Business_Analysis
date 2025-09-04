@@ -91,7 +91,7 @@ How beneficial it will be in solving the problem?:
 - operational effieciency and also support local employment stability
 - The AI tool will make queries and offer the best of service so client's can be happy, with that even staff members will know their schedules and plan ahead of time.
 
-Machine Learning Approach
+# Machine Learning Approach
 - Data Collection
 • Historical guest bookings and preferences
 • Service usage logs
