@@ -1,3 +1,4 @@
+# Code from the Textbook used to implement RSME
 import operator
 import math
 import random
@@ -66,4 +67,5 @@ if __name__ == "__main__":
             stats=mstats, halloffame=hall_of_fame, verbose=True)
 
     print("Best individual:", hall_of_fame[0])
+
     print("Best fitness (RMSE):", hall_of_fame[0].fitness.values[0])
