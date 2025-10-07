@@ -15,7 +15,7 @@ Business Success Criteria
 - Occupancy rate of over 75% year-round.
 - Guest satisfaction rating of 4.5-5 on review platforms.
 - Revenue growth of at least 10% annually.
-- Operational cost savings of around 5–10% per year through efficiency measures.
+- Operational cost savings of around 5-10% per year through efficiency measures.
 - Repeat guest rate of over 30%.
 
 # Business Background
