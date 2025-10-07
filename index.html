@@ -285,7 +285,7 @@
                 .catch(error => {
                     const errorDiv = document.createElement('div');
                     errorDiv.className = 'chat-message bot-message';
-                    errorDiv.innerHTML = 'Sorry, an error occurred communicating with the data API.';
+                    errorDiv.innerHTML = 'Sorry, an error occured communicating with the data API.';
                     chatWindow.appendChild(errorDiv);
                     chatWindow.scrollTop = chatWindow.scrollHeight;
                     console.error('Error:', error);
@@ -293,5 +293,6 @@
         }
     </script>
 </body>
+
 
 </html>
