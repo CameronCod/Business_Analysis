@@ -1,35 +1,39 @@
 # Problem Definition
- Hotels receive hundreds of guest reviews through online platforms and surveys, making it difficult
- for management to manually analyze and identify patterns in customer satisfaction. This often
- results in delayed responses to guest complaints and missed opportunities to improve service
- quality. The proposed AI-driven solution will use Natural Language Processing (NLP) to
- automatically analyze text reviews, classify them into positive, negative, or neutral sentiments, and
- highlight common topics such as cleanliness, staff behavior, and food quality. This automation
- enables hotels to quickly respond to guest feedback, improve service delivery, and increase
- customer retention, aligning with the Fourth Industrial Revolution (4IR) objectives by integrating
- smart AI solutions into business processes.
+ The hospitality industry in South Africa plays a crucial role in the country’s economic and tourism development, yet
+many hotels face significant challenges in managing and interpreting guest feedback effectively. Each day,
+thousands of customer reviews are posted on platforms such as Booking.com, TripAdvisor, and Google Reviews.
+These reviews contain valuable insights about guest experiences, service quality, cleanliness, staff behaviour,
+and overall satisfaction. However, most hotels rely on manual reading and summarisation of reviews, which is
+time-consuming, inconsistent, and prone to human bias. As a result, management teams often fail to detect
+negative trends or recurring service problems early enough to take corrective action. This leads to customer
+dissatisfaction, poor online ratings, and potential revenue loss, particularly in competitive tourist regions where
+reputation is key. The proposed solution aims to use Artificial Intelligence (AI) and Natural Language Processing
+(NLP) to automatically analyse and classify guest reviews into positive, neutral, or negative sentiments.  Implementing this AI solution will not only enhance the operational efficiency of individual hotels but also strengthen the local tourism industry, boost regional economic activity, and create employment opportunities through improved service delivery and increased guest retention.
  
  # Business Objectives
-1. Improve guest satisfaction through AI-driven sentiment monitoring. 
-2. Identify recurring customer issues and service gaps.
-3. Provide management with a real-time sentiment analysis dashboard.
-4. Support data-driven decisions for improving hotel services.
+1.Automate the analysis of guest reviews using AI and NLP.
+2.Identify common guest concerns such as cleanliness, staff attitude, and room quality.
+3.Provide management with real-time dashboards that summarise customer satisfaction trends.
+4.Reduce the time and cost spent on manual review analysis.
+5.Support evidence-based decision-making to improve service delivery and competitiveness.
 
  # Business Success Criteria
- - Achieve at least 90% model accuracy in sentiment prediction.
- - Reduce guest complaint response time by 50%. 
- - Increase customer satisfaction ratings by at least 0.5 stars within 6 months.
- 
+ -Achieve at least 85% accuracy in classifying review sentiments.
+-Reduce manual review processing time by 50%.
+-Generate weekly insights highlighting top three guest concerns.
+-Improve average hotel rating scores within six months of implementation.
+
  # Constraints & Risks
  - Data privacy and access issues for online reviews.
  - Model misclassification of sarcasm or complex text.
  - Unbalanced dataset (more positive than negative reviews).
 
  # AI Solution Overview
- This AI solution will apply NLP and deep learning techniques to analyze guest feedback
- automatically. The model will preprocess text (tokenization, lemmatization), extract features
- (TF-IDF), and train classifiers such as Naïve Bayes or LSTM neural networks. The results will be
- visualized in an interactive dashboard, showing overall sentiment trends and top service issues.
+ -The proposed solution uses Artificial Intelligence (AI) and Natural Language Processing (NLP) to automatically analyse hotel guest reviews.
+ -The system collects reviews from online platforms, cleans the text, and applies a machine learning model to classify each review as positive, neutral, or negative. 
+ -This helps hotel management quickly identify areas that need improvement, such as service quality or cleanliness.
+-The results are displayed on a dashboard that shows overall guest satisfaction, trends over time, and most common issues. 
+-This AI system saves time, reduces human error, and helps hotels make faster, data-driven decisions to improve customer experience and strengthen their reputation in the local tourism market.
  
  # Machine Learning Approach
  - Algorithms: Logistic Regression, Naïve Bayes, LSTM, BERT.
@@ -57,3 +61,8 @@
  - Visualization: Streamlit, Matplotlib, Seaborn.
  - Dataset Source: Kaggle Hotel Reviews Dataset.
  - Model Type: NLP – Sentiment Classification (LSTM / Naïve Bayes.
+
+ # Conclusion
+The AI-powered guest sentiment analysis system offers South African hotels a modern, data-driven way to
+enhance guest experiences and operational efficiency. Through automation and AI insights, the hospitality sector
+can improve decision-making, strengthen local economies, and support sustainable tourism development
