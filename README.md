@@ -1,3 +1,8 @@
+# Business Background
+The hospitality industry in South Africa is one of the most influential contributors to the country’s economy and tourism sector.
+Major tourist destinations such as Cape Town, Durban, and Johannesburg attract millions of visitors annually, making hotel service quality a key factor in regional competitiveness. In the digital era, most guests share their experiences on online platforms such as Booking.com, TripAdvisor, and Google Reviews. However, many hotels still rely on manual methods to interpret this feedback, which are time-consuming, inconsistent, and prone to human error.
+This project proposes the use of Artificial Intelligence (AI) and Natural Language Processing (NLP) to automatically analyse guest reviews. By converting unstructured text into measurable insights, hotels can identify customer satisfaction trends, detect recurring service issues, and make informed business decisions. This system aims to enhance guest experience, improve hotel performance, and strengthen South Africa’s local tourism economy.
+
 # Problem Definition
  The hospitality industry in South Africa plays a crucial role in the country’s economic and tourism development, yet
 many hotels face significant challenges in managing and interpreting guest feedback effectively. Each day,
@@ -34,15 +39,30 @@ reputation is key. The proposed solution aims to use Artificial Intelligence (AI
  -This helps hotel management quickly identify areas that need improvement, such as service quality or cleanliness.
 -The results are displayed on a dashboard that shows overall guest satisfaction, trends over time, and most common issues. 
 -This AI system saves time, reduces human error, and helps hotels make faster, data-driven decisions to improve customer experience and strengthen their reputation in the local tourism market.
- 
- # Machine Learning Approach
- - Algorithms: Logistic Regression, Naïve Bayes, LSTM, BERT.
- - Evaluation Metrics: Accuracy,F1-Score, Confusion Matrix. 
- - Tools: Python, NLTK, SpaCy, TensorFlow, Scikit-learn, Streamlit.
 
- # Dataset
- - Kaggle “Hotel Reviews Data in Europe” dataset. - Custom feedback from hotel management
- systems. - Data Fields: Review text, rating, location, and timestamp.
+# Functional Requirements 
+-System must import hotel reviews (CSV)
+-Text must be cleaned and pre-processed before analysis
+-Reviews must be classified into sentiment categories
+-Dashboards must show trends and frequent complaint themes
+-Ability to export reports
+
+# Non-Functional Requirements 
+-Dashboard response time within 5 seconds
+-Secure handling of text-only (no personal data)
+-Easy-to-use interface
+-Scalable to multiple hotels
+
+# Community & local Municipality benefits 
+Improving guest experiences increases local tourism demand, helping nearby businesses such as restaurants and transport services grow.
+Better hotel performance leads to job creation, increased economic activity, and alignment with South Africa’s 4IR transformation goals, uplifting local communities and boosting tourism regions.
+ 
+ # Data & Model summary 
+ -Dataset: kaggle "Booking.com"
+-Features: Review text, hotel name, location, star rating, date
+-Processing: Tokenisation, stop-word removal, lemmatisation
+-Models: Naïve Bayes, Logistic Regression, LSTM (optional advanced)
+-Evaluation: Accuracy, F1-score, Precision/Recall, Confusion Matrix
  
  # Model & Evaluation
  The dataset will be split into training (80%) and testing (20%) subsets. Text preprocessing will be
